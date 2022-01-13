@@ -1,0 +1,40 @@
+{
+    "name": "ovillafuerte94/qvapay-laravel",
+    "description": "A Laravel wrapper for the Wvapay Web API",
+    "keywords": ["laravel", "qvapay", "qvapay-web-api", "qvapay-api"],
+    "homepage": "https://github.com/ovillafuerte94/qvapay-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Omar Villafuerte",
+            "email": "ovillafuerte.94@gmail.com",
+            "homepage": "https://ovillafuerte94.is-a.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^6.5|^7.0",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ovillafuerte94\\QvapayLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ovillafuerte94\\QvapayLaravel\\Providers\\Qvapay"
+            ],
+            "aliases": {
+				"Qvapay": "Ovillafuerte94\\QvapayLaravel\\Facades\\Qvapay"
+			}
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
