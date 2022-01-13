@@ -1,6 +1,6 @@
 {
     "name": "ovillafuerte94/qvapay-laravel",
-    "description": "A Laravel wrapper for the Wvapay Web API",
+    "description": "A Laravel wrapper for the Qvapay API",
     "keywords": ["laravel", "qvapay", "qvapay-web-api", "qvapay-api"],
     "homepage": "https://github.com/ovillafuerte94/qvapay-laravel",
     "license": "MIT",
