@@ -1,5 +1,5 @@
 # Qvapay Laravel
-An easy to use Qvapay API wrapper for Laravel 7 and 8.
+An easy to use Qvapay API wrapper for Laravel 7, 8 and 9.
 
 ## Introduction
 Qvapay-Laravel makes working with the Qvapay API a breeze. It provides straight forward methods for each endpoint.
